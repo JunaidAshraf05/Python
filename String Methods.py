@@ -22,3 +22,6 @@ print(b.capitalize())  #it will capitalize the first letter of statement
 #centre= this will align the text to the center
 str1 = "Welcome to console!!!!"
 print(str1.center(50))
+
+#count = it count the strings in statement
+print(a.count("Junaid"))
