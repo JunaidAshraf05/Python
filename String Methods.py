@@ -24,4 +24,24 @@ str1 = "Welcome to console!!!!"
 print(str1.center(50))
 
 #count = it count the strings in statement
-print(a.count("Junaid"))
+print(a.count("Junaid "))
+
+
+str1 = "Welcome to console!!!!"
+print(str1.endswith("!!!")) #it will tell if the strings is ending with same letter which we defined in code or not if yes it will print "true" if no it will prnt "false"
+
+#find = it will find letter in strings if our defined letter is not there it will returnin negative value
+str2 = "i am Batman "
+print(str2.find("am"))
+
+#islanum= it will return true only if the entire  string only consistA-Z a-z 0-9
+str1 = "Welcome to console!!!!"
+print(str1.isalnum())
+
+
+
+str1 = "Welcome to console!!!!"
+print(str1.isalpha())
+
+
+#string.swapcase convert uppercase to lowercase and vice versa in a string
