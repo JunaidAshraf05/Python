@@ -45,3 +45,5 @@ print(str1.isalpha())
 
 
 #string.swapcase convert uppercase to lowercase and vice versa in a string
+str1 = "I am IRONMAN"
+print(str1.swapcase())
