@@ -26,3 +26,8 @@ def average (a=5 , b=1 ):
 
 average(b=6)
 #in this it will second b argument
+
+
+
+
+
