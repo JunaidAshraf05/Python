@@ -23,4 +23,48 @@ cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
 
 cities2 ={ "Tokyo", "seoul" , "kabul" , "Madrid"}
 cities.intersection_update(cities2)
-print(cities) 
+print(cities)   
+
+##disjoint =jisme kuch bhi common nahi hota
+
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+
+cities2 ={ "Tokyo", "seoul" , "kabul" , "Madrid"}
+print(cities.isdisjoint(cities2))
+
+
+##superset= kya function 2 ka element fun1 me hai ? check krne ke liye use hota hai
+
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+cities2 = {"seoul" , " kabul"}
+print(cities.issuperset(cities2))
+cities3 ={ "Tokyo", "seoul" , "kabul" , "Madrid"}
+print(cities.issuperset(cities3))
+print(cities.issubset(cities2))
+
+
+#to add anoter item
+cities.add("helsinki")
+print(cities)
+
+#remove()/discard()
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+cities.remove("Tokyo")
+print(cities)
+
+
+#pop= this method will remove last element of the set but catch is that which item will get popped as sets are undefined
+
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+item=cities.pop()
+print(cities)
+print(item)
+
+#del = by the hellp of del we can delete the entire set
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+del cities
+
+#clear()= by the help of clear we can clear all items and print an empty sets
+cities = {"Tokyo" , "Madrid" , "Berlin" , "Delhi"}
+cities.clear()
+print(cities)
