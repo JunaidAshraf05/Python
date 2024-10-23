@@ -2,8 +2,17 @@ class person:
     Name = "junaid"
     occupation = "software developer"
     networth=0
+def info(self):
+       print(f"Name: {self.Name}") is a 
+       print(f"Occupation: {self.occupation}")
+   
     
 a = person()
-a.name="subham"
+b= person()
+a.Name="subham"
 a.ocuupatiom ="accountant"
-print(a.name)
+
+b.name="nitika"
+b.occupation="hr"
+a.info()
+# self ka matlab woh object jiske liye call ho raha hai  
