@@ -19,3 +19,24 @@ class Point:
 
     def __add__(self, other):
         return Point(self.x + other.x, self.y + other.y)
+    
+    
+# 2nd example
+
+class Vector:
+    def__init__( self, i , j , k)
+    self.i = i
+    self.j = j 
+    self.k = k 
+  
+def __str__(self):
+    return f"{self.i}i + {self.j}j + {self.k}k"
+def __add__(self, x):
+  return Vector (self.i + x.i,  self.j +x.j), (self.k+x.k) 
+
+v1 = Vector(3,6,7)
+print(v1)
+
+v2 = Vector(1,5,6)
+print(v2)
+ 
