@@ -19,6 +19,22 @@ random.choice([1,2,3,4,5,6,7,8,9])
 random.choice([1,2,3,4,5,6,7,8,9])
 3
 
+import random
+random.random() #it will genrate a random number
+0.4019330300047814
+random.random()
+0.7501478208198262
+
+random.randint(1,10) #it will generate a random number between the range
+9
+random.randint(1,10)
+
+l1 = ['lemon','masala','ginger','mint']
+random.choice(l1)
+
+
+
+ 
 username ="junaid"
 len(username)
 6
