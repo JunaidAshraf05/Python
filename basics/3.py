@@ -32,6 +32,9 @@ random.randint(1,10)
 l1 = ['lemon','masala','ginger','mint']
 random.choice(l1)
 
+random.shuffle(l1)#it will shuffle the list
+l1
+
 
 
  
@@ -64,3 +67,14 @@ myD['one']
 myTup = (1,2,3)
 myTup[0]
 1
+
+
+type(True)
+# <class 'bool'>
+True==1
+True
+Flase == 0
+True
+
+True +4
+5
