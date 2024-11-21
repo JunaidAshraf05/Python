@@ -24,3 +24,7 @@ tea_varieties[1:2]
 tea_varieties[1:2]="lemon"
 tea_varieties
 ['black', 'l', 'e', 'm', 'o', 'n', 'oolong', 'herbal']
+
+tea_varieties[1:2] = ["lemon"]
+tea_varieties
+['black', 'lemon', 'oolong', 'white']
