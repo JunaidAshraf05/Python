@@ -15,8 +15,13 @@ print(chai.upper())
 chai = "   masala chai   "
 chai
 '   masala chai   '
-print(chai.strip())
+print(chai.strip()) #it will strip / remove the extra spaces 
 # masala chai
+
+#######################################
+
+chai="lemon chai"
+print(chai.replace("lemon", "ginger" ))#it will replace lemon to ginger 
 
 
 num_list = "0123456789"
